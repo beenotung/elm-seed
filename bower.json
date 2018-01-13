@@ -1,9 +1,9 @@
 {
-  "name": "pmp-elm",
+  "name": "elm-seed",
   "authors": [
     "Beeno Tung <aabbcc1241@yahoo.com.hk>"
   ],
-  "description": "front-end of project-based matching platform",
+  "description": "seed elm app",
   "main": "",
   "license": "BSD-2-clause",
   "homepage": "",

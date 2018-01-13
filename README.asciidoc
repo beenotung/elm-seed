@@ -1,4 +1,4 @@
-= pmp-elm
+= elm-seed
 
 PMP elm module
 
