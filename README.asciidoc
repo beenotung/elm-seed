@@ -2,6 +2,7 @@
 
 PMP elm module
 
-== Test
+== References
 
-link:http://package.elm-lang.org/packages/elm-community/elm-test/latest[Quick Start]
+. link:http://package.elm-lang.org/packages/elm-community/elm-test/latest[elm-test Quick Start]
+. link:http://blog.jenkster.com/2016/04/how-i-structure-elm-apps.html[elm app structure]
