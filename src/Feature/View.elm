@@ -6,4 +6,4 @@ import Html exposing (Html)
 
 root : Model -> Html Msg
 root model =
-    Html.text "feature"
+    Html.text "Feature"

@@ -3,9 +3,14 @@ module Feature.State exposing (..)
 import Feature.Types exposing (Model, Msg(Msg))
 
 
-init : ( Model, Cmd Msg )
-init =
-    {} ! []
+initModel : Model
+initModel =
+    {}
+
+
+initCmd : Cmd Msg
+initCmd =
+    Cmd.batch []
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )

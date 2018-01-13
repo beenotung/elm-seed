@@ -8,4 +8,4 @@ type alias Model =
 
 
 type Msg
-    = FeatureMsg
+    = FeatureMsg Feature.Types.Msg
