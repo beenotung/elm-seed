@@ -1,0 +1,15 @@
+#!/bin/bash
+set -e
+if [ $# == 0 ]; then
+  echo -n "name: "; read name
+else
+  name="$1"
+  echo "name: $name"
+fi
+name="${name^}"
+cd src
+cp -r Feature "$name"
+cd "$name"
+sed -i "s/Feature/$name/g" *.elm
+echo "created module $name"
+echo "remember to update src/{State,Types,View}.elm"
